@@ -32,7 +32,7 @@ PFsalome是作为一个轻量化库被集成到salome中，具体文件结构如
         - 修改关键词
         - 最后转回qm格式
             >lrelease ts文件名 -qm qm文件名
-    - 模块栏的修改&nbsp;&nbsp;&nbsp;![avatar](../module_panel.jpg)
+    - 模块栏的修改</br><div align=center><img width="360px"  bor src="module_panel.jpg"></div>
         - 通过在启动脚本salome中注释掉相应模块，可实现模块的增加或删减
         - 通过在SalomeApp.xml中更改相应信息实现自定义模块的名称，图标和版本信息的更换
     - 页面的增删或更改
@@ -53,14 +53,15 @@ PFsalome是作为一个轻量化库被集成到salome中，具体文件结构如
         |Run|开始计算按钮对应功能|run.sh-->开始计算shell脚本|
         |其他文件或文件夹|辅助，测试用||
         - 主页面的布局及修改方法
-        <div align=center><img src=../workspace.jpg></div>
+        <img width="1800px"  bor src="workspace.jpg">
         主页面可分为三部分，操作面板，paraview视窗及日志与进度显示.主页面可分为三部分，操作面板，paraview视窗及日志与进度显示。主页面的布局和控件可在gui/workspace中修改，workspace脚本以对各部分代码详细注释。操作面板分为三个标签页，其中内容可在gui/Workspace/workspace_ui中修改,各控件的对应关系也可大致通过workspace.ui查看。
         - 各弹窗界面的修改方法
 
         由于大量控件需要动态添加，所以界面没有与功能分离。想要找到各控件的对应关系，可通过打印弹窗脚本中普遍存在的key_list与value_list找到对应的控件
     - Paravis的gui结构
-        ![avatar](../paraview_structure.jpg)
 
+        <img width="1800px"  bor src="paraview_structure.jpg">
+        
         <font color='#33CCFF'>view</font>-->pvsimple.getviews()
 
         <font color=purple>mainwindow</font> 的获取-->pvsimple.getviewwidget()
