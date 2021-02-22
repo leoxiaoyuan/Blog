@@ -14,8 +14,6 @@ context.setVariable(r"ASTERSTUDY_ROOT_DIR", out_dir_Path + r"/BINARIES-UB18.04/A
 
 ## 说明文档:
 
-
-
 PFsalome是作为一个轻量化库被集成到salome中，具体文件结构如下：
 <div align=center><img src="Tree.jpg"></div>
 
