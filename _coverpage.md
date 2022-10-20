@@ -2,7 +2,7 @@
 
 # a happy programming noob
 
-- Hi! My name is Zeyuan and I am a fresher in coding. I have created a few interesting projects using Unix, Python, Fortran and JavaScript. 
+Hi! My name is Zeyuan and I am a fresher in coding. I have created a few interesting projects using Unix, Python, Fortran and JavaScript. 
 
 The overall aim of my research is to investigate and develop the next generation of CAE softwares by using Machine learning. I'd be very honored if some porjects can help you!
 
